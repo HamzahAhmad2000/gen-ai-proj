@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Large model files
+*.pth
+*.pt
+*.h5
+*.onnx
+*.bin
+*.safetensors
+
+# Large output directories
+output/
+subfolder-*/
+img/
+
+# Generated files
+output_descriptions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Zone identifiers
+*.Zone.Identifier
